@@ -1,31 +1,37 @@
 // chiediamo all'utente di darci un numero per dieci volte
 
-const firstNumber = parseInt(prompt("Okay ora ti chiederò di darmi dieci numeri, iniziamo dal primo:"))
+let firstNumber = parseInt(prompt("Okay ora ti chiederò di darmi dieci numeri, iniziamo dal primo:"))
 console.log(firstNumber);
 
-const secondNumber = parseInt(prompt("Dammi il secondo:"));
+let secondNumber = parseInt(prompt("Dammi il secondo:"));
 console.log(secondNumber);
 
-const thirdNumber = parseInt(prompt("Il terzo:"));
+let thirdNumber = parseInt(prompt("Il terzo:"));
 console.log(thirdNumber);
 
-const fourthNumber = parseInt(prompt("Il quarto:"));
+let fourthNumber = parseInt(prompt("Il quarto:"));
 console.log(fourthNumber);
 
-const fifthNumber = parseInt(prompt("Il quinto:"));
+let fifthNumber = parseInt(prompt("Il quinto:"));
 console.log(fifthNumber);
 
-const sixthNumber = parseInt(prompt("Il sesto:"));
+let sixthNumber = parseInt(prompt("Il sesto:"));
 console.log(sixthNumber);
 
-const seventhNumber = parseInt(prompt("Il settimo:"));
+let seventhNumber = parseInt(prompt("Il settimo:"));
 console.log(seventhNumber);
 
-const eightNumber = parseInt(prompt("L'ottavo:"));
+let eightNumber = parseInt(prompt("L'ottavo:"));
 console.log(eightNumber);
 
-const ninthNumber = parseInt(prompt("Il nono:"));
+let ninthNumber = parseInt(prompt("Il nono:"));
 console.log(ninthNumber);
 
-const tenthNumber = parseInt(prompt("Ed infine il decimo!"))
+let tenthNumber = parseInt(prompt("Ed infine il decimo!"))
 console.log(tenthNumber);
+
+
+let numberOperations = firstNumber + secondNumber + thirdNumber + fourthNumber + fifthNumber + sixthNumber + seventhNumber + eightNumber + ninthNumber + tenthNumber;
+
+console.log(" La somma dei seguenti numeri è:");
+console.log(numberOperations);
